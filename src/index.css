@@ -22,3 +22,60 @@ code {
 .padding {
   padding: 10px;
 }
+
+.space {
+  margin: 10px;
+  padding: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  padding: 100px;
+}
+
+.second {
+  padding: 40px;
+}
+
+.item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.borderCard {
+  margin-left: 50px;
+  margin-right: 80px;
+  font-size: 12px;
+}
+
+.text-blue{
+  color: blue;
+}
+
+.text-red{
+  color: red;
+}
+
+.text-green{
+  color: green;
+}
+
+.text-orange{
+  color: orange;
+}
